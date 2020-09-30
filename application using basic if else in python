@@ -1,0 +1,11 @@
+sal=int(input("enter the salary: "))
+tax=0
+if(sal<250000):
+    tax=0
+elif(sal>=250000 and sal<500000):
+    tax=sal*0.05
+elif(sal>=500000 and sal<1000000):
+    tax=12500+(sal-500000)*0.2
+else:
+    tax= 112500+(sal-1000000)*0.3
+print("tax for above mentioned salary is: ",tax)
