@@ -1,0 +1,6 @@
+st1 = input("enter the first string: ")
+st2 = input("enter another string: ")
+c1 = st1 + st2
+print("concatenation through + oprator: ",c1)
+c2=" ".join([st1,st2])
+print("concatenation through JOIN method: ",c2)
